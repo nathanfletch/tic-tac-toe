@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <h2>Current Player: <span id="current-player-display" ></span></h2>
+      <h2>Turn Number: <span id="turn-number-display" ></span></h2>
+      <div id="board">
+        <div class="row">
+          <div id="00" class="col border space"></div>
+          <div id="01" class="col border space"></div>
+          <div id="02" class="col border space"></div>
+        </div>
+        <div class="row">
+          <div id="10" class="col border space"></div>
+          <div id="11" class="col border space"></div>
+          <div id="12" class="col border space"></div>
+        </div>
+        <div class="row">
+          <div id="20" class="col border space"></div>
+          <div id="21" class="col border space"></div>
+          <div id="22" class="col border space"></div>
+        </div>
+      </div>
+      <div class="mt-3 btn btn-success" id="undo-button">Undo</div>
+    </div>
+  </body>
+</html>
